@@ -1,5 +1,5 @@
 .app__menuitem {
-    width: 100%;
+    width: 50%;
     margin: 1rem 0;
 
     display: flex;
@@ -15,6 +15,7 @@
 .app__menuitem-sub {
     width: 100%;
     margin-top: 0.2rem;
+    
 }
 
 .app__menuitem-name {
@@ -22,7 +23,7 @@
 }
 
 .app__menuitem-dash {
-    width: 50px;
+    width: 100px;
     height: 1px;
     background: var(--color-golden);
     margin: 0 1rem;
@@ -32,4 +33,16 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+@media screen and (max-width: 650px) {
+    .app__menuitem-dash{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__menuitem{
+        width: 100%;
+    }
 }

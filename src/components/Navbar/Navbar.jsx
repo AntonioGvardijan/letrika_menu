@@ -9,14 +9,16 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app__logo" />
+        <img src={images.letrika} alt="app__logo" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">Cijenik pića</a></li>
-        <li className="p__opensans"><a href="#menu">Cijenik koktela</a></li>
-        <li className="p__opensans"><a href="#awards">Cijenik Sladoleda</a></li>
-        <li className="p__opensans"><a href="#contact">O nama</a></li>
+        <li className="p__opensans"><a href="#kava">Warm Drinks</a></li>
+        <li className="p__opensans"><a href="#sok">Soft Drinks</a></li>
+        <li className="p__opensans"><a href="#piva">Beer</a></li>
+        <li className="p__opensans"><a href="#koktel">Coctails</a></li>
+        <li className="p__opensans"><a href="#vino">Wine</a></li>
+        <li className="p__opensans"><a href="#zestoko">Strong Drinks</a></li>
       </ul>
       
       <div className="app__navbar-smallscreen">
@@ -26,10 +28,12 @@ const Navbar = () => {
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
-              <li><a href="#about" onClick={() => setToggleMenu(false)}>Cijenik pića</a></li>
-              <li><a href="#menu" onClick={() => setToggleMenu(false)}>Cijenik koktela</a></li>
-              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Cijenik Sladoleda</a></li>
-              <li><a href="#contact" onClick={() => setToggleMenu(false)}>O nama</a></li>
+              <li><a href="#kava" onClick={() => setToggleMenu(false)}>Warm Drinks</a></li>
+              <li><a href="#sok" onClick={() => setToggleMenu(false)}>Soft Drinks</a></li>
+              <li><a href="#piva" onClick={() => setToggleMenu(false)}>Beer</a></li>
+              <li><a href="#koktel" onClick={() => setToggleMenu(false)}>Coctails</a></li>
+              <li><a href="#vino" onClick={() => setToggleMenu(false)}>Wine</a></li>
+              <li><a href="#zestoko" onClick={() => setToggleMenu(false)}>Strong Drinks</a></li>
             </ul>
           </div>
         )}

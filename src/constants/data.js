@@ -166,37 +166,37 @@ const wines__black = [
 
 const domace_rakije_1 = [
   {
-    title: 'Travarica / Herb Brandy 0,03',
+    title: 'Travarica / Herb Brandy 0,03L',
     price: '1,80€ / 13,56kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Šljivovica / Plum Brandy 0,03',
+    title: 'Šljivovica / Plum Brandy 0,03L',
     price: '1,80€ / 13,56kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Lozovača / Grape Brandy 0,03',
+    title: 'Lozovača / Grape Brandy 0,03L',
     price: '1,80€ / 13,56kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Medica / Honey Brandy 0,03',
+    title: 'Medica / Honey Brandy 0,03L',
     price: '1,90€ / 14,32kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Višnjevac / Cherry Brandy 0,03',
+    title: 'Višnjevac / Cherry Brandy 0,03L',
     price: '1,90€ / 14,32kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Borovnica / Blueberry Brandy 0,03',
+    title: 'Borovnica / Blueberry Brandy 0,03L',
     price: '1,90€ / 14,32kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Orahovac / Walnut Brandy 0,03',
+    title: 'Orahovac / Walnut Brandy 0,03L',
     price: '1,90€ / 14,32kn',
     tags: 'HR | čaša',
   },
@@ -204,37 +204,37 @@ const domace_rakije_1 = [
 
 const domace_rakije_2 = [
   {
-    title: 'Đumbir / Ginger Brandy 0,03',
+    title: 'Đumbir / Ginger Brandy 0,03L',
     price: '2,20€ / 16,58kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Pelinkovac 0,03',
+    title: 'Pelinkovac 0,03L',
     price: '1,80€ / 13,56kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Stock 0,03',
+    title: 'Stock 0,03L',
     price: '1,90€ / 14,32kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Amaro 0,03',
+    title: 'Amaro 0,03L',
     price: '1,80€ / 13,56kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Gin 0,03',
+    title: 'Gin 0,03L',
     price: '1,80€ / 13,56kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Vodka 0,03',
+    title: 'Vodka 0,03L',
     price: '1,80€ / 13,56kn',
     tags: 'HR | čaša',
   },
   {
-    title: 'Viljamovka / Williams Brandy 0,03',
+    title: 'Viljamovka / Williams Brandy 0,03L',
     price: '2,50€ / 18,84kn',
     tags: 'HR | čaša',
   },
@@ -242,27 +242,27 @@ const domace_rakije_2 = [
 
 const strani_alk_1 = [
   {
-    title: 'Jack Daniels 0,03',
+    title: 'Jack Daniels 0,03L',
     price: '3,30€ / 24,86kn',
     tags: 'čaša',
   },
   {
-    title: 'Ballantines 0,03',
+    title: 'Ballantines 0,03L',
     price: '2,50€ / 18,84kn',
     tags: 'čaša',
   },
   {
-    title: 'Chivas 0,03',
+    title: 'Chivas 0,03L',
     price: '3,70€ / 27,88kn',
     tags: 'čaša',
   },
   {
-    title: 'Malibu 0,03',
+    title: 'Malibu 0,03L',
     price: '2,50€ / 18,84kn',
     tags: 'čaša',
   },
   {
-    title: 'Tequila 0,03',
+    title: 'Tequila 0,03L',
     price: '2,30€ / 17,33kn',
     tags: 'čaša',
   },
@@ -270,30 +270,192 @@ const strani_alk_1 = [
 
 const strani_alk_2 = [
   {
-    title: 'Vodka Smirnoff 0,03',
+    title: 'Vodka Smirnoff 0,03L',
     price: '2,50€ / 18,84kn',
     tags: 'čaša',
   },
   {
-    title: 'Jegermaister 0,03',
+    title: 'Jegermaister 0,03L',
     price: '2,50€ / 18,84kn',
     tags: 'čaša',
   },
   {
-    title: 'Hennesy 0,03',
+    title: 'Hennesy 0,03L',
     price: '4,00€ / 30,14kn',
     tags: 'čaša',
   },
   {
-    title: 'Southern Comfort 0,03',
+    title: 'Southern Comfort 0,03L',
     price: '2,90€ / 21,85kn',
     tags: 'čaša',
   },
   {
-    title: 'Johnnie Walker Red Label 0,03',
+    title: 'Johnnie Walker Red Label 0,03L',
     price: '2,40€ / 18,08kn',
     tags: 'čaša',
   },
 ]
 
-export default { beer, cocktails, wines__black, wines__white, domace_rakije_1, domace_rakije_2, strani_alk_1, strani_alk_2 };
+const bezalk_1 = [
+  {
+    title: 'Coca-Cola 0,25L',
+    price: '2,40€ / 18,08kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Coca-Cola Zero Limun 0,25L',
+    price: '2,40€ / 18,08kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Fanta 0,25L',
+    price: '2,40€ / 18,08kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Sprite 0,25L',
+    price: '2,40€ / 18,08kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Cocta 0,275L',
+    price: '2,50€ / 18,84kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Schweps 0,25L',
+    price: '2,50€ / 18,84kn',
+    tags: 'Tangerina / Bitter Lemon / Tonic | boca',
+  },
+  {
+    title: 'Cappy 0,20L',
+    price: '2,50€ / 18,84kn',
+    tags: 'Jabuka (Apple) / Naranča (Orange) / Gusti (Mix) / Crni ribiz (Blackcurrants) | boca',
+  },
+  {
+    title: 'Ledeni Čaj / Ice Tea 0,25L',
+    price: '2,50€ / 18,84kn',
+    tags: 'boca',
+  },
+]
+
+const bezalk_2 = [
+  {
+    title: 'Orangina 0,25L',
+    price: '2,60€ / 19,59kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Red Bull 0,25L',
+    price: '3,60€ / 27,12kn',
+    tags: 'limenka',
+  },
+  {
+    title: 'Cedevita 0,30L',
+    price: '2,00€ / 15,07kn',
+    tags: 'vrečica',
+  },
+  {
+    title: 'Romerquelle Mineralna voda / Carbonated Water 0,33L',
+    price: '2,10€ / 15,82kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Romerquelle Limunska trava / Carbonated Water Lemon Grass 0,33L',
+    price: '2,10€ / 15,82kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Romerquelle Prirodna voda / Natural Water 0,33L',
+    price: '2,10€ / 15,82kn',
+    tags: 'boca',
+  },
+  {
+    title: 'Jamnica Mineralna voda / Mineral Water 1,00L',
+    price: '4,00€ / 30,14kn',
+    tags: 'boca',
+  },
+]
+
+const topli_napitci_1 = [
+  {
+    title: 'Espresso kava / Coffee',
+    price: '1,60€ / 12,06kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Kava s mlijekom mala / Small Coffee with milk',
+    price: '1,60€ / 12,06kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Kava s mlijekom velika / Big Coffee with milk',
+    price: '1,80€ / 13,56kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Cappuccino',
+    price: '2,00€ / 15,07kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Bijela kava / White Coffee',
+    price: '2,00€ / 15,07kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Kava sa šlagom / Coffee with White Cream',
+    price: '2,00€ / 15,07kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Espresso kava bezkofeinska / Decaf. Coffee',
+    price: '1,80€ / 13,56kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Kava s mlijekom bezkofeinska / Decaf. Coffee with milk',
+    price: '2,00€ / 15,07kn',
+    tags: 'šalica',
+  },
+]
+
+const topli_napitci_2 = [
+  {
+    title: 'Cappuccino bezkofeinski / Decaf. Cappuccino',
+    price: '2,00€ / 15,07kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Bijela kava bezkofeinska / Decaf. White Coffee',
+    price: '2,20€ / 16,58kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Instant Cappuccino',
+    price: '2,20€ / 16,58kn',
+    tags: 'Classic / Vanilija (Vanilla) / Čokolada (Chocolate) / Irish / Kokos (Coconut) | šalica',
+  },
+  {
+    title: 'Kakao / Cocoa',
+    price: '2,20€ / 16,58kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Čaj s limuno / Tea with lemon',
+    price: '1,50€ / 11,30kn',
+    tags: 'šalica',
+  },
+  {
+    title: 'Med / Honey',
+    price: '0,30€ / 2,26kn',
+    tags: 'pakiranje',
+  },
+  {
+    title: 'Mlijeko / Milk 0,20L',
+    price: '1,10€ / 8,29kn',
+    tags: 'šalica',
+  },
+]
+
+export default { beer, cocktails, wines__black, wines__white, domace_rakije_1, domace_rakije_2, strani_alk_1, strani_alk_2, bezalk_1, bezalk_2, topli_napitci_1, topli_napitci_2 };
