@@ -51,7 +51,7 @@ const beer = [
   },
   {
     title: 'Becks 0,33l',
-    price: '3,60€',
+    price: '4,00€',
     tags: 'DE | Boca',
   },
 ];
