@@ -1,8 +1,7 @@
-
 const beer = [
   {
     title: 'Ožujsko 0,20L',
-    price: '1,90€',
+    price: '2,00€',
     tags: 'HR | Točeno',
   },
   {
