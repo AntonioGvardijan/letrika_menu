@@ -34,15 +34,15 @@ var beer = [{
   tags: 'HR | Boca'
 }, {
   title: 'Tomislav Tamno 0,50l',
-  price: '4,00€n',
+  price: '4,00€',
   tags: 'HR | Boca'
 }, {
   title: 'Hidra Limun 0,50l',
-  price: '4,00€n',
+  price: '4,00€',
   tags: 'HR | Boca'
 }, {
   title: 'Hidra Naranča 0,50l',
-  price: '4,00€n',
+  price: '4,00€',
   tags: 'HR | Boca'
 }, {
   title: 'Becks 0,33l',
@@ -104,7 +104,7 @@ var wines__white = [{
   tags: '0,15L vino | 0,05L mineralna voda'
 }, {
   title: 'Gemišt Kutjevačka Graševina 0,30L',
-  price: '4,20€n',
+  price: '4,20€',
   tags: '0,20L vino | 0,10L mineralna voda'
 }, {
   title: 'Gemišt Malvazija 0,20L',
