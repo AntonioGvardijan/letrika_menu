@@ -113,6 +113,17 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
+      </div>
+
+      <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_wine  flex__center">
+        <p className="app__specialMenu-menu_heading">Smoothie</p>
+        <div className="app__specialMenu_menu_items">
+          {data.smoothie.map((smoothie, index) => (
+            <MenuItem key={smoothie.title + index} title={smoothie.title} price={smoothie.price} tags={smoothie.tags} />
+          ))}
+        </div>
+      </div>
 
       
 

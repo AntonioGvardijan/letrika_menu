@@ -368,6 +368,11 @@ var topli_napitci_2 = [{
   price: '1,40€',
   tags: 'šalica'
 }];
+var smoothie = [{
+  title: 'Smoothie 0,30L',
+  price: '6,00€',
+  tags: 'Čaša'
+}];
 var _default = {
   beer: beer,
   cocktails: cocktails,
@@ -380,7 +385,8 @@ var _default = {
   bezalk_1: bezalk_1,
   bezalk_2: bezalk_2,
   topli_napitci_1: topli_napitci_1,
-  topli_napitci_2: topli_napitci_2
+  topli_napitci_2: topli_napitci_2,
+  smoothie: smoothie
 };
 exports["default"] = _default;
 //# sourceMappingURL=data.dev.js.map

@@ -477,4 +477,12 @@ const topli_napitci_2 = [
   },
 ]
 
-export default { beer, cocktails, wines__black, wines__white, domace_rakije_1, domace_rakije_2, strani_alk_1, strani_alk_2, bezalk_1, bezalk_2, topli_napitci_1, topli_napitci_2 };
+const smoothie = [
+{
+  title: 'Smoothie 0,30L',
+  price: '6,00€',
+  tags: 'Čaša'
+}
+]
+
+export default { beer, cocktails, wines__black, wines__white, domace_rakije_1, domace_rakije_2, strani_alk_1, strani_alk_2, bezalk_1, bezalk_2, topli_napitci_1, topli_napitci_2, smoothie };
